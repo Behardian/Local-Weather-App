@@ -1,0 +1,52 @@
+﻿body {
+    background: url(Images/sunny.jpg) no-repeat center center fixed;    
+    background-size: cover;  
+}
+
+#titleHeader {
+    text-align: center;
+    border: solid 1px grey;
+    background-color: white;
+    opacity: 0.7;
+    width: 500px;
+    height: auto;    
+}
+
+#mainContainer {
+    padding-top: 100px;  
+    width: 500px;
+    height: auto;
+}
+
+#iconDiv {
+    text-align: center;
+}
+
+#tempDiv {
+    text-align: center;    
+    font-size: 30px;   
+}
+
+.infoTab {   
+    position: relative;
+    border: solid 1px grey;
+    background-color: white;
+    opacity: 0.6;
+    width: 166px;
+    height: 100px;   
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.infoTab p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#tempRow {
+    padding-top: 10px;
+}
+
